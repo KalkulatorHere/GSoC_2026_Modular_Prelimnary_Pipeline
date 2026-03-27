@@ -1,0 +1,15 @@
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python-headless
+numpy
+PyMuPDF  # fitz
+google-generativeai
+transformers==4.38.2
+accelerate
+pillow
+pandas
+python-dotenv
+# Manual dependency for text structure
+layoutparser
+# Detectron2 from git
+detectron2 @ git+https://github.com/facebookresearch/detectron2.git@v0.5#egg=detectron2
